@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Happy Birthday to Me!</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" /> 
+  </head>
+  <body>
+    <h1>Happy Birthday to Me!</h1>
+    <p><strong>Sheel</strong>, you entered level 22 of life!</p>
+    <img id="cake" src="/birthday-cake.png" alt="Birthday Cake" />
+    <img id="balloons" src="/balloons.png" alt="Balloons" />
+
+    <audio id="birthday-music" loop>
+      <source src="/background_music.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+
+    <div class="modal" id="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <h2>Happy Birthday to Sheel!</h2>
+        <p>Happy birthday to the wonderful soul that is me! 🎉🎂🎈 Wishing myself endless happiness, laughter, and success in the coming year. Here's to embracing my quirks, celebrating my strengths, and creating unforgettable memories along the way! 🌟💕</p>
+        <div class="play-button-container">
+          <button class="play-button" onclick="playBirthdayMusic()">
+            Celebrate Birthday ♬🎉🎈🔊
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="/script.js"></script>
+  </body>
+</html>
