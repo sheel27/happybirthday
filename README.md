@@ -1,3 +1,3 @@
 # happybirthday
 
-Created a birthday wishing page for myself.
+Created a birthday celebration for me
